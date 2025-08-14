@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar Jogadores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Escolha um jogador para ver a imagem</h1>
+
+    <div id="container-imagem">
+        <img id="imagem" src="" alt="Imagem do jogador">
+    </div>
+
+    <div id="container-botoes">
+        <button onclick="mostrarImagem('cr7')">Cristiano Ronaldo</button>
+        <button onclick="mostrarImagem('messi')">Messi</button>
+        <button onclick="mostrarImagem('neymar')">Neymar</button>
+        <button class="limpar" onclick="limparImagem()">Limpar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
